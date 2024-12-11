@@ -1,0 +1,84 @@
+*	{ margin: 0; 
+      padding: 0; 
+    }
+
+    body{
+        background-color: hsl(47, 88%, 63%);
+        font-family: "Figtree", serif;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        font-size: 16px; /*1rem;*/
+    }
+
+    .blogcard-container{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .blog-card{
+        border: 2px solid black;
+        background-color: hsl(0, 0%, 100%);
+        padding: 18px;
+        border-radius: 18px;
+        box-shadow: 8px 8px 0px black;  
+    }
+
+    .blog-img{
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+
+    .btn{
+        background-color: hsl(47, 88%, 63%);
+        border: none;
+        width: 80px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 5px;  
+    }
+
+        
+    .text h2{
+        color: hsl(0, 0%, 7%);
+        font-weight: 800;
+        padding: 15px 0 15px 0;
+        cursor: pointer;
+    }
+
+    h2:hover{
+        color: hsl(47, 88%, 63%);
+    }
+
+
+    .para1{
+        color: hsl(0, 0%, 7%);
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 14px;
+    }
+
+    .para2{
+        color: hsl(0, 0%, 42%);
+        padding-bottom: 18px;
+    }
+
+    .info{
+      display: flex;
+      margin: auto;
+    }
+    
+   .info img{
+        width: 28px;
+   }
+    
+   .info h5{
+    font-weight: 800;
+    padding-top: 5px;
+    margin-left: 8px;
+   }
